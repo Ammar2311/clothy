@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+ }
+
+ 
+ .main{
+    width: 100%;
+    height: 80vh;
+    background-image:url(assets/img1.jpg);
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .action{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+ h2{
+    color:#fff;
+ }
+ .action button{
+
+    width:15vw;
+    padding: 15px;
+    margin: 10px;
+    color: #fff;
+ 
+    background-color: transparent;
+
+    
+ }
+
+/* ------------------- */
+
+.products{
+    width: 100%;
+    height: 80vh;
+    /* background-color: cornsilk; */
+
+    display: flex;
+    justify-content: space-around;
+   
+    margin:5px;
+    padding: 5px;
+
+}
+
+.product{
+    /* background-color: #ccc; */
+    width: 23%;
+    height: 100%;
+
+    text-align: left;
+}
+.product *{margin: 5px}
+
+.product p{
+    color:rgb(76, 67, 67);
+    font-size: 14px;
+}
+
+.product img{
+
+   width: 100%;
+   height: 50%;
+   
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------header------ */
+header{
+   /* background-color: #ccc; */
+   height: 10vh;
+   width: 100%;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   border-bottom: 2px solid #ccc;
+}
+
+header div{
+   /* width: 30%; */
+   /* background-color: lightcyan; */
+}
+.first{
+   width: 20%;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.second{
+   width: 40%;
+
+}
+header ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+
+   display: flex;
+   justify-content: space-around;
+}
+
+.second li{
+   height: 100%;
+   background-color: #fff;
+
+ 
+
+   display: flex;
+   align-items: center;
+   padding: 10px;
+
+   
+
+}
+.second li a{
+   text-decoration: none;
+   color: #be5d24;
+}
+
+.second li:hover{
+   background-color: #ddd;
+  
+}
+
+
+/* ----icons section  */
+
+.third{
+      width: 20%;
+
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.third img:hover{
+   width: 32px;
+}
+
+
+/* ------------- footer---------------- */
+
+footer{
+     width: 100%;
+     height: 30vh;
+
+     /* background-color: lightcoral; */
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+     border-top: 1px solid #ddd;
+
+}
+
+
+.cards ul{
+   display: flex;
+   list-style-type: none;
+
+}
